@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Fragmento from './src/components/Fragmento'
+import Botao from './src/components/Botao'
 
 export default () => (
   <View style={style.view}>
-    <Fragmento /> 
+    <Botao /> 
   </View>
 )
 
