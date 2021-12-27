@@ -1,12 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Propriedades from './src/components/Propriedades'
+import Fragmento from './src/components/Fragmento'
 
 export default () => (
   <View style={style.view}>
-    {/* Com {val} é passado como o tipo padrão dele no JS */}
-    <Propriedades min={10} max={30} /> 
+    <Fragmento /> 
   </View>
 )
 
