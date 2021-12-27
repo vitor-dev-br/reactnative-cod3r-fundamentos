@@ -1,13 +1,13 @@
 import React from "react"
-import { Text, View } from 'react-native'
+import { Text, View, StyleSheet } from 'react-native'
 
-import Primeiro from './src/components/Primeiro'
-import X, { Comp1 } from "./src/components/Multi" // com {} eu vou ler o quê foi exportado do arquivo
+import estilo from './src/components/estilo'
+
+import Style from './src/components/Style'
 
 export default () => (
   <View>
-    <Primeiro />
-    <Comp1></Comp1>
-    <X />
+    <Style />
+    <Text style={estilo.padrao}>Esse é um texto vindo de um estilo externo</Text>
   </View>
 )
