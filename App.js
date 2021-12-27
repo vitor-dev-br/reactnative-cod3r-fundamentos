@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Botao from './src/components/Botao'
+import ExercicioEstado from './src/components/ExercicioEstado'
 
 export default () => (
   <View style={style.view}>
-    <Botao /> 
+    <ExercicioEstado/> 
   </View>
 )
 
