@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Pai from './src/components/direta/Pai'
+import Pai from './src/components/indiretaTeste/Pai'
 
 export default () => (
   <View style={style.view}>
-    <Pai/> 
+    <Pai/>
   </View>
 )
 
