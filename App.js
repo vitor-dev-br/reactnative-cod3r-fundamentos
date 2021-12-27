@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import ExercicioEstado from './src/components/ExercicioEstado'
+import Pai from './src/components/direta/Pai'
 
 export default () => (
   <View style={style.view}>
-    <ExercicioEstado/> 
+    <Pai/> 
   </View>
 )
 
