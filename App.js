@@ -2,11 +2,12 @@ import React from "react"
 import { Text, View } from 'react-native'
 
 import Primeiro from './src/components/Primeiro'
+import X, { Comp1 } from "./src/components/Multi" // com {} eu vou ler o quê foi exportado do arquivo
 
 export default () => (
   <View>
     <Primeiro />
-    { /* O quê está entre {} é interpretado como JS */}
-    <Text>{ 1 + 2 }</Text>
+    <Comp1></Comp1>
+    <X />
   </View>
 )
