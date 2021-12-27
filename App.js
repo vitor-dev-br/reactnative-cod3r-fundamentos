@@ -1,12 +1,12 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Aleatorio from './src/components/Aleatorio'
+import Propriedades from './src/components/Propriedades'
 
 export default () => (
   <View style={style.view}>
     {/* Com {val} é passado como o tipo padrão dele no JS */}
-    <Aleatorio min={10} max={30} /> 
+    <Propriedades min={10} max={30} /> 
   </View>
 )
 
