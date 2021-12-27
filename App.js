@@ -1,18 +1,12 @@
 import React from "react"
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
 
-/*
-// OPÇÃO 1
-// Deixando o componente como função anônima
-const App = function () {
-  return <Text>Mensagem exemplo!</Text>
-}
+import Primeiro from './src/components/Primeiro'
 
-export default App
-*/
-
-// OPÇÃO 2
-// Deixando o componente como arrow funcion
-export default () => {
-  return <Text>Mensagem exemplo!</Text>
-}
+export default () => (
+  <View>
+    <Primeiro />
+    { /* O quê está entre {} é interpretado como JS */}
+    <Text>{ 1 + 2 }</Text>
+  </View>
+)
