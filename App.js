@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import UsuarioLogado from './src/components/UsuarioLogado'
+import ListaProdutos from './src/components/produtos/ListaProdutos'
 
 export default () => (
   <View style={style.view}>
-    <UsuarioLogado usuario={ {nome: 'Vitor', email: 'vitor@vitor.dev.br'} } />
+    <ListaProdutos/>
   </View>
 )
 
