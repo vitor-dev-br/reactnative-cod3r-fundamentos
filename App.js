@@ -1,20 +1,16 @@
 import React from "react"
-import { View, StyleSheet } from 'react-native'
-
-import DigiteSeuNome from './src/components/DigiteSeuNome'
+import { View, Text, StyleSheet } from 'react-native'
+import Mega from "./src/components/mega/Mega"
 
 export default () => (
   <View style={style.view}>
-    <DigiteSeuNome/>
+    <Mega />
   </View>
 )
 
-const style = new StyleSheet.create({
+const style = StyleSheet.create({
   view: {
-    flexDirection: "column",
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
-    paddingTop: 50
+    flex: 1,
+    marginTop: 40
   }
 })
