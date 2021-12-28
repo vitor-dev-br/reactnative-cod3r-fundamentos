@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import ListaProdutos from './src/components/produtos/ListaProdutosV2'
+import DigiteSeuNome from './src/components/DigiteSeuNome'
 
 export default () => (
   <View style={style.view}>
-    <ListaProdutos/>
+    <DigiteSeuNome/>
   </View>
 )
 
