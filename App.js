@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Plataforma from './src/components/Plataforma'
+import Condicional from './src/components/Condicional'
 
 export default () => (
   <View style={style.view}>
-    <Plataforma/>
+    <Condicional/>
   </View>
 )
 
