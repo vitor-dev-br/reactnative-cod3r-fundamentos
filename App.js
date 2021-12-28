@@ -1,11 +1,20 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Condicional from './src/components/Condicional'
+import Pai from './src/components/Children/Pai'
+import Filho from './src/components/Children/Filho'
 
 export default () => (
   <View style={style.view}>
-    <Condicional/>
+    <Pai>
+      <Filho nome="Vitor" sobrenome="Adonai" />
+      <Filho nome="Marcela" sobrenome="Adonai" />
+      <Filho nome="Thiago" sobrenome="Adonai" />
+      <Filho nome="Aline" sobrenome="Adonai" />
+    </Pai>
+    <Pai>
+      <Filho nome="Pedro" sobrenome="Souza" />
+    </Pai>
   </View>
 )
 
