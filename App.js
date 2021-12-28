@@ -1,11 +1,11 @@
 import React from "react"
 import { View, StyleSheet } from 'react-native'
 
-import Contador from './src/components/contador/Contador'
+import Plataforma from './src/components/Plataforma'
 
 export default () => (
   <View style={style.view}>
-    <Contador/>
+    <Plataforma/>
   </View>
 )
 
