@@ -4,7 +4,7 @@ import Mega from "./src/components/mega/Mega"
 
 export default () => (
   <View style={style.view}>
-    <Mega nome="MegaSena Gerador" qtdNumeros={9} />
+    <Mega nome="MegaSena Gerador" qtdNumeros={6} />
   </View>
 )
 
